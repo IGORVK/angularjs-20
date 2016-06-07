@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8" />
+	<title>angularjs-20-Compile-</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+    <link rel="stylesheet" href="prettify.css" />
+	<script src="main.js"></script> 
+</head>
+<body>
+
+   <ui-source>
+      <label>Name:</label>
+      <input type='text' ng-model='yourName' placeholder='Enter a name here'>
+      <hr>
+      <h1>Hello {{yourName}}</h1>
+   </ui-source>
+  
+</body>
+</html>
